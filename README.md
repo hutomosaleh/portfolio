@@ -1,2 +1,2 @@
-# portfolio_website
+# portfolio
 My personal static website
