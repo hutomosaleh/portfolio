@@ -11,6 +11,8 @@ about.onclick=function () {
 
 function show(page){
 
+     console.log(active)
+     
      // Handles highlighting
      var choice = document.querySelector(page);
      choice.classList.add("active");  // highlights chosen page
@@ -26,9 +28,9 @@ function show(page){
      choice.classList.remove("hidden");  // shows chosen page
      var old_choice = document.querySelector(active_temp);
      old_choice.classList.add("hidden");  // hides old page
-
+     
+     console.log(active)
 }
-
 
 
 
