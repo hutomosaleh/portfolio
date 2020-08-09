@@ -297,10 +297,11 @@ a {
     text-decoration: none;
     -webkit-transition: all 0.3s ease;  /* Look into this more! */
     transition: all 0.3s ease;
+    margin: 0px 10px;
 }
 .home .intro .social-link a:hover {
     -webkit-transform: scale(1.1);
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 /* About Section */
