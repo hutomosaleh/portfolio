@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Halo halo, selamat datang ke tour webpage saya. Saya Hutomo, mari lihat -->
 <head>
     <title>My Web</title>
     <meta charset="utf-8">
@@ -10,8 +11,10 @@
 </head>
 <body>
 <!-- Main Container -->
+<!-- ####### Ini main container bisa juga pakai flex box + flex-basis -->
 <div class="main-container">
-    <!-- Aside -->
+    <!-- Aside | The nav bar on the left -->
+    <!-- ####### Disini saya taruh disebelah kanan, pakai fixed-width-->
     <div class="aside">
         <!-- Logo -->
         <div class="logo">
@@ -34,10 +37,12 @@
         </div>
     </div>
     <!-- Aside END -->
-    <!-- Main Content -->
+    <!-- Main Content | Home, About, SKills, Etc-->
+    <!-- ###### Dsini saya kasih padding yg sama dengan widthnya nav bar -->
     <div class="main-content">
+
         <!-- Home Section -->
-        <section class="home section">
+        <section class="home section hidden">
             <div class="container">
                 <div class="intro">
                     <img src="img/me.jpg" alt="profile" class="shadow-dark">
@@ -53,6 +58,233 @@
             </div>
         </section>
         <!-- Home Section END -->
+
+        <!-- About Section -->
+        <section class="about section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-content padd-15">
+                        <div class="row">
+                            <div class="about-text padd-15">
+                                <h3>Idk why <span>you're</span> still <span>interested in</span> knowing about <span>me</span>.</h3>
+                                <p>So, my name is Tom. I'm a student. I'm not VERY passionate and VERY dedicated to my studies. 
+                                But I like doing stuff, like making this website. I enjoy success and achievement, like many people do.
+                                My life's goal is being contempt, as I am now. Kinda. I really like learning to program.
+                                I'm currently in love with making apps with Python. I'm sure I'll love trying out C++ but I haven't learned that much about it. </p>
+                            </div>
+                        </div>
+                        <!-- Info and skills -->
+                        <div class="row">
+                            <div class="personal-info padd-15">
+                                <div class="row">
+                                    <div class="info-item padd-15"">
+                                        <p>Birthday: <span>11 February 1995</span></p>
+                                    </div>
+                                    <div class="info-item padd-15"">
+                                        <p>Nationality: <span>Indonesia</span></p>
+                                    </div>
+                                    <div class="info-item padd-15"">
+                                        <p>Degree: <span>Power Engineering B.Sc</span></p>
+                                    </div>
+                                    <div class="info-item padd-15"">
+                                        <p>Phone: <span>(+49) 176 420 420 69</span></p>
+                                    </div>
+                                    <div class="info-item padd-15"">
+                                        <p>Status: <span>Contempt</span></p>
+                                    </div>
+                                    <div class="info-item padd-15"">
+                                        <p>Religion: <span>Pastafarianism</span></p>
+                                    </div>
+                                    <div class="info-item padd-15"">
+                                        <p>Email: <span>CallMeLuvU@huto.me</span></p>
+                                    </div>
+                                    <div class="info-item padd-15"">
+                                        <p>Commisions: <span>Available</span></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="buttons padd-15">
+                                        <a href="#" class="btn">Download CV</a>
+                                        <a href="#" class="btn">Poke Me</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills padd-15">
+                                <div class="row">
+                                    <div class="skill-items padd-15">
+                                        <h5>Procrastination</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 90%"></div>
+                                            <div class="skill-percent">90%</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-items padd-15">
+                                        <h5>Matlab & Numpy</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 10%"></div>
+                                            <div class="skill-percent">10%</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-items padd-15">
+                                        <h5>HTML & CSS</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 10%"></div>
+                                            <div class="skill-percent">10%</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-items padd-15">
+                                        <h5>Python</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 50%"></div>
+                                            <div class="skill-percent">50%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Info and skills END -->
+                        <!-- Timeline -->
+                        <div class="row">
+                            <div class="education padd-15">
+                                <h3 class="title">I'm educated.</h3>
+                                <div class="row">
+                                    <div class="timeline-box">
+                                        <div class="timeline shadow-dark">
+                                            <!-- Timeline Item -->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h6 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i>
+                                                    1970 - 2020
+                                                </h6>
+                                                <h4 class="timeline-title">
+                                                    Master in Bullshitery
+                                                </h4>
+                                                <p class="timeline-text">
+                                                    I learned throughout my life
+                                                    that everything needs to be 
+                                                    taken with a small pinch of
+                                                    bullshitery. Or else you'll
+                                                    get pwned.
+                                                </p>
+                                            </div>
+                                            <!-- Timeline Item -->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h6 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i>
+                                                    1970 - 2020
+                                                </h6>
+                                                <h4 class="timeline-title">
+                                                    Master in Bullshitery
+                                                </h4>
+                                                <p class="timeline-text">
+                                                    I learned throughout my life
+                                                    that everything needs to be 
+                                                    taken with a small pinch of
+                                                    bullshitery. Or else you'll
+                                                    get pwned.
+                                                </p>
+                                            </div>
+                                            <!-- Timeline Item -->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h6 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i>
+                                                    1970 - 2020
+                                                </h6>
+                                                <h4 class="timeline-title">
+                                                    Master in Bullshitery
+                                                </h4>
+                                                <p class="timeline-text">
+                                                    I learned throughout my life
+                                                    that everything needs to be 
+                                                    taken with a small pinch of
+                                                    bullshitery. Or else you'll
+                                                    get pwned.
+                                                </p>
+                                            </div>
+                                            <!-- Timeline Items END -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experience padd-15">
+                                <h3 class="title">My EXP.</h3>
+                                <div class="row">
+                                    <div class="timeline-box padd-15">
+                                        <div class="timeline shadow-dark">
+                                            <!-- Timeline Item -->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h6 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i>
+                                                    1970 - 2020
+                                                </h6>
+                                                <h4 class="timeline-title">
+                                                    Master in Bullshitery
+                                                </h4>
+                                                <p class="timeline-text">
+                                                    I learned throughout my life
+                                                    that everything needs to be 
+                                                    taken with a small pinch of
+                                                    bullshitery. Or else you'll
+                                                    get pwned.
+                                                </p>
+                                            </div>
+                                            <!-- Timeline Item -->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h6 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i>
+                                                    1970 - 2020
+                                                </h6>
+                                                <h4 class="timeline-title">
+                                                    Master in Bullshitery
+                                                </h4>
+                                                <p class="timeline-text">
+                                                    I learned throughout my life
+                                                    that everything needs to be 
+                                                    taken with a small pinch of
+                                                    bullshitery. Or else you'll
+                                                    get pwned.
+                                                </p>
+                                            </div>
+                                            <!-- Timeline Item -->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h6 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i>
+                                                    1970 - 2020
+                                                </h6>
+                                                <h4 class="timeline-title">
+                                                    Master in Bullshitery
+                                                </h4>
+                                                <p class="timeline-text">
+                                                    I learned throughout my life
+                                                    that everything needs to be 
+                                                    taken with a small pinch of
+                                                    bullshitery. Or else you'll
+                                                    get pwned.
+                                                </p>
+                                            </div>
+                                            <!-- Timeline Items END -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Timeline END -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section END -->
     </div>
     <!-- Main Content END -->
 </div>
