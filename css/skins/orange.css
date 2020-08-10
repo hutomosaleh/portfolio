@@ -1,0 +1,31 @@
+:root {
+    --color: #fa5b0f;
+}
+
+.aside .logo a::before { 
+    border-top: 4px solid var(--color);
+    border-left: 4px solid var(--color);
+}
+.aside .logo a::after {  
+    border-right: 4px solid var(--color);
+    border-bottom: 4px solid var(--color);
+}
+.about .about-content .about-text h3 span,
+dark.body .aside .nav li a:hover,
+.aside .nav li a:hover,
+body.dark .aside .nav li a.active,
+.aside .nav li a.active {  /* Don't separate the a with .active! */
+    color: var(--color);
+}
+.about .about-content .timeline .circle-dot,
+.about .about-content .timeline .timeline-item::before,
+.about .about-content .skills .skill-items .progress .progress-in,
+.btn,
+.section-title h2::after,
+.section-title h2::before,
+.aside .nav-toggler span,
+.home .intro .social-link a,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after {
+    background-color: var(--color);
+}
