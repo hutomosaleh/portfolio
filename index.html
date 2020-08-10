@@ -7,7 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Template css Files -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
+    <link rel="stylesheet" href="css/skins/red.css" type="text/css">
+
+    <!-- Style Switcher -->
+    <link rel="stylesheet" class="alternate-style" title="red" href="css/skins/red.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="blue" href="css/skins/blue.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="orange" href="css/skins/orange.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="yellow" href="css/skins/yellow.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="green" href="css/skins/green.css" type="text/css" disabled>
+    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
+
 </head>
 <body>
 <!-- Main Container -->
@@ -16,7 +25,7 @@
     <div class="aside">
         <!-- Logo -->
         <div class="logo">
-            <a href="#">Lazy</a>
+            <a href="#">Lost</a>
         </div>
         <!-- Nav Toggler Button -->
         <div class="nav-toggler">
@@ -24,9 +33,9 @@
         </div>
         <!-- Nav -->
         <ul class="nav">
-            <li><a href="#" id="home" class="active"><i class="fa fa-home"></i> Home</a></li>
-            <li><a href="#" id="about"><i class="fa fa-user"></i> About</a></li>
-            <li><a href="#" id="home"><i class="fa fa-list"></i> Skills</a></li>
+            <li><a href="#home" id="home" class="active"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#about" id="about"><i class="fa fa-user"></i> About</a></li>
+            <li><a href="#" id="home"><i class="fa fa-angellist "></i> Projects</a></li>
             <li><a href="#" id="home"><i class="fa fa-briefcase"></i> Experience</a></li>
             <li><a href="#" id="home"><i class="fa fa-comment"></i> Contact</a></li>
         </ul>
@@ -79,28 +88,28 @@
                         <div class="row">
                             <div class="personal-info padd-15">
                                 <div class="row">
-                                    <div class="info-item padd-15"">
+                                    <div class="info-item padd-15">
                                         <p>Birthday: <span>11 February 1995</span></p>
                                     </div>
-                                    <div class="info-item padd-15"">
+                                    <div class="info-item padd-15">
                                         <p>Nationality: <span>Indonesia</span></p>
                                     </div>
-                                    <div class="info-item padd-15"">
+                                    <div class="info-item padd-15">
                                         <p>Degree: <span>Power Engineering B.Sc</span></p>
                                     </div>
-                                    <div class="info-item padd-15"">
+                                    <div class="info-item padd-15">
                                         <p>Phone: <span>(+49) 176 420 420 69</span></p>
                                     </div>
-                                    <div class="info-item padd-15"">
+                                    <div class="info-item padd-15">
                                         <p>Status: <span>Contempt</span></p>
                                     </div>
-                                    <div class="info-item padd-15"">
+                                    <div class="info-item padd-15">
                                         <p>Religion: <span>Pastafarianism</span></p>
                                     </div>
-                                    <div class="info-item padd-15"">
+                                    <div class="info-item padd-15">
                                         <p>Email: <span>CallMeLuvU@huto.me</span></p>
                                     </div>
-                                    <div class="info-item padd-15"">
+                                    <div class="info-item padd-15">
                                         <p>Commisions: <span>Available</span></p>
                                     </div>
                                 </div>
@@ -154,7 +163,25 @@
                                     <div class="timeline-box">
                                         <div class="timeline shadow-dark">
                                             <!-- Timeline Item -->
-                                            <div class="timeline-item">
+                                            <div id="tl-item" class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h6 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i>
+                                                    1970 - 2020
+                                                </h6>
+                                                <h4 id="test2" class="timeline-title">
+                                                    Master in Bullshitery
+                                                </h4>
+                                                <p class="timeline-text">
+                                                    I learned throughout my life
+                                                    that everything needs to be 
+                                                    taken with a small pinch of
+                                                    bullshitery. Or else you'll
+                                                    get pwned.
+                                                </p>
+                                            </div>
+                                            <!-- Timeline Item -->
+                                            <div id="tl-item" class="timeline-item">
                                                 <div class="circle-dot"></div>
                                                 <h6 class="timeline-date">
                                                     <i class="fa fa-calendar"></i>
@@ -172,25 +199,7 @@
                                                 </p>
                                             </div>
                                             <!-- Timeline Item -->
-                                            <div class="timeline-item">
-                                                <div class="circle-dot"></div>
-                                                <h6 class="timeline-date">
-                                                    <i class="fa fa-calendar"></i>
-                                                    1970 - 2020
-                                                </h6>
-                                                <h4 class="timeline-title">
-                                                    Master in Bullshitery
-                                                </h4>
-                                                <p class="timeline-text">
-                                                    I learned throughout my life
-                                                    that everything needs to be 
-                                                    taken with a small pinch of
-                                                    bullshitery. Or else you'll
-                                                    get pwned.
-                                                </p>
-                                            </div>
-                                            <!-- Timeline Item -->
-                                            <div class="timeline-item">
+                                            <div id="tl-item" class="timeline-item">
                                                 <div class="circle-dot"></div>
                                                 <h6 class="timeline-date">
                                                     <i class="fa fa-calendar"></i>
@@ -217,10 +226,10 @@
                             <div class="experience padd-15">
                                 <h3 class="title">My EXP.</h3>
                                 <div class="row">
-                                    <div class="timeline-box padd-15">
+                                    <div class="timeline-box">
                                         <div class="timeline shadow-dark">
                                             <!-- Timeline Item -->
-                                            <div class="timeline-item">
+                                            <div id="tl-item" class="timeline-item">
                                                 <div class="circle-dot"></div>
                                                 <h6 class="timeline-date">
                                                     <i class="fa fa-calendar"></i>
@@ -238,7 +247,7 @@
                                                 </p>
                                             </div>
                                             <!-- Timeline Item -->
-                                            <div class="timeline-item">
+                                            <div id="tl-item" class="timeline-item">
                                                 <div class="circle-dot"></div>
                                                 <h6 class="timeline-date">
                                                     <i class="fa fa-calendar"></i>
@@ -256,7 +265,7 @@
                                                 </p>
                                             </div>
                                             <!-- Timeline Item -->
-                                            <div class="timeline-item">
+                                            <div id="tl-item" class="timeline-item">
                                                 <div class="circle-dot"></div>
                                                 <h6 class="timeline-date">
                                                     <i class="fa fa-calendar"></i>
@@ -291,8 +300,45 @@
     <!-- Main Content END -->
 </div>
 <!-- Main Container END -->
+
+<!-- Style Switcher -->
+<div class="style-switcher">
+    <h5>Style Switcher</h5>
+        <div class="toggle-style-switcher">
+            <i class="fa fa-cog fa-spin"></i>
+        </div>
+        <ul>
+            <!-- javascript:void(0) lets us stay on the same page, not changing url -->
+            <li><a href="javascript:void(0);" title="red" style="background-color: #ec1839;"
+                onclick="setActiveStyle('red')"></a></li>
+            <li><a href="javascript:void(0);" title="blue" style="background-color: #2196f3;"
+                onclick="setActiveStyle('blue')"></a></li>
+            <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;"
+                onclick="setActiveStyle('orange')"></a></li>
+            <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;"
+                onclick="setActiveStyle('yellow')"></a></li>
+            <li><a href="javascript:void(0);" title="green" style="background-color: #72b626;"
+                onclick="setActiveStyle('green')"></a></li>
+        </ul>
+        <h5>Body Skin</h5>
+        <label>
+            <input type="radio" class="body-skin" name="body-style" value="light" checked="true">
+            Light
+        </label>
+        <label>
+            <input type="radio" class="body-skin" name="body-style" value="dark">
+            Dark
+        </label>
+</div>
+<!-- Style Switcher END-->
+
 <!-- Toggle Script -->
 <script src="js/toggle.js"></script>
+
+<!-- Style Switcher JS -->
+<script src="js/styleswitcher.js"></script>
+
+
 </body>
 </html>
 
