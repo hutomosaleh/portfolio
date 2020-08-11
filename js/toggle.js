@@ -42,6 +42,7 @@ var active_navbar = 0;
 for (let i = 0; i < navbar_length; i++) {
   navbar[i].addEventListener('click', function () {
     if (i != active_navbar) {
+      asideSectionTogglerBtn();
       navbar[active_navbar].children[0].classList.toggle('active');
       navbar[i].children[0].classList.toggle('active');
       main[active_navbar].classList.toggle('hidden');
