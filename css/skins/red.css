@@ -1,21 +1,26 @@
 :root {
-    --color: #ec1839;
+  --color: #ec1839;
 }
 
-.aside .logo a::before { 
-    border-top: 4px solid var(--color);
-    border-left: 4px solid var(--color);
+.aside .logo a::before {
+  border-top: 4px solid var(--color);
+  border-left: 4px solid var(--color);
 }
-.aside .logo a::after {  
-    border-right: 4px solid var(--color);
-    border-bottom: 4px solid var(--color);
+.aside .logo a::after {
+  border-right: 4px solid var(--color);
+  border-bottom: 4px solid var(--color);
 }
+
+.project-text span,
+a.active,
+body.dark a.active,
 .about .about-content .about-text h3 span,
-dark.body .aside .nav li a:hover,
+body.dark .aside .nav li a:hover,
 .aside .nav li a:hover,
 body.dark .aside .nav li a.active,
-.aside .nav li a.active {  /* Don't separate the a with .active! */
-    color: var(--color);
+.aside .nav li a.active {
+  /* Don't separate the a with .active! */
+  color: var(--color);
 }
 .about .about-content .timeline .circle-dot,
 .about .about-content .timeline .timeline-item::before,
@@ -27,5 +32,5 @@ body.dark .aside .nav li a.active,
 .home .intro .social-link a,
 .aside .nav-toggler span::before,
 .aside .nav-toggler span::after {
-    background-color: var(--color);
+  background-color: var(--color);
 }
