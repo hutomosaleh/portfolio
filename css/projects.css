@@ -11,7 +11,6 @@
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: 600;
-  color: red;
 }
 
 .project-text p {
@@ -69,5 +68,9 @@
 @media (max-width: 1300px) {
   .project-showcase {
     flex-direction: column;
+  }
+
+  .project-menu li {
+    display: block;
   }
 }
