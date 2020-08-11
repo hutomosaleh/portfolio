@@ -2,6 +2,7 @@ var home = document.querySelector('#home');
 var about = document.querySelector('#about');
 var active = '#home'
 
+
 home.onclick=function () {
      show("#home");
 }
@@ -13,7 +14,7 @@ function show(page){
 
      if ( page != active) {
           console.log(active)
-     
+          asideSectionTogglerBtn();
           // Handles highlighting
           var choice = document.querySelector(page);
           choice.classList.add("active");  // highlights chosen page
@@ -34,6 +35,19 @@ function show(page){
      }
 }
 
+// var navBar = document.querySelector(".nav").children;
+// var navBarlength = navBar.length;
+
+// for (let i = 0; i < navBarlength; i++) {
+//      navBar[i].addEventListener("click", function() {
+//           console.log(this.children[0].id);
+//           var choice = this.children[0];
+//           choice.classList.add("active");
+//           active = choice.id
+//           choice.classList.add("active");
+//      })
+// }
+
 const navTogglerBtn = document.querySelector(".nav-toggler");
 const aside = document.querySelector(".aside");
 
@@ -41,6 +55,7 @@ navTogglerBtn.addEventListener("click", () => {
      asideSectionTogglerBtn();
 })
 
+// Toggles the navbar
 function asideSectionTogglerBtn() {
      aside.classList.toggle("open");
      navTogglerBtn.classList.toggle("open");
