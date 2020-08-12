@@ -409,6 +409,7 @@ body.dark .aside .nav li a {
 
 /* Small fonts */
 body.dark .project p,
+body.dark .timeline-desc,
 body.dark .about .about-content .timeline .timeline-text,
 body.dark .about .about-content .timeline .timeline-date,
 body.dark .about .about-content .skills .skill-items .skill-percent,
@@ -460,6 +461,12 @@ body.dark .shadow-dark {
         margin-left: 0;
     }
 
+    
+    .contact-info {
+        display: flex;
+        
+        padding: 150px 0 20px 0;
+    }
 }
 
 @media (max-width: 767px) {
