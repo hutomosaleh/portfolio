@@ -464,8 +464,31 @@ body.dark .shadow-dark {
     
     .contact-info {
         display: flex;
-        
         padding: 150px 0 20px 0;
+    }
+    
+    .project-showcase {
+        flex-direction: column;
+    }
+
+    .project-menu li {
+        display: block;
+    }
+
+    .project-menu a.active {
+        display: block;
+    }
+
+    .project-menu a.active span::before  {
+        content: '>   ';
+    }
+
+    .project-menu a.active span::after  {
+        content: '   <';
+    }
+
+    .project-menu a.active::before  {
+        width: 0;
     }
 }
 
@@ -488,5 +511,18 @@ body.dark .shadow-dark {
     .about .about-content .timeline-box {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    .contact-info a {
+        padding-bottom: 70px;
+    }
+
+    .contact-info i {
+        padding-bottom: 10px;
     }
 }
