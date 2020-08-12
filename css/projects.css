@@ -87,15 +87,3 @@
   margin: 10px;
   padding-bottom: 20px;
 }
-
-/* Responsiveness */
-
-@media (max-width: 1300px) {
-  .project-showcase {
-    flex-direction: column;
-  }
-
-  .project-menu li {
-    display: block;
-  }
-}
