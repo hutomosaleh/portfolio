@@ -70,6 +70,7 @@ for (let i = 0; i < pmenu_length; i++) {
   });
 }
 
+
 const navTogglerBtn = document.querySelector('.nav-toggler');
 const aside = document.querySelector('.aside');
 
@@ -82,3 +83,17 @@ function asideSectionTogglerBtn() {
   aside.classList.toggle('open');
   navTogglerBtn.classList.toggle('open');
 }
+
+// swiped-left
+document.addEventListener('swiped-left', function(e) {
+  if (aside.classList.contains('open') !=  false && styleswitcher.classList.contains('open') !=  true) {
+    asideSectionTogglerBtn();
+  }
+});
+
+// swiped-right
+document.addEventListener('swiped-right', function(e) {
+  if (aside.classList.contains('open') !=  true && styleswitcher.classList.contains('open') !=  true) {
+    asideSectionTogglerBtn();
+  }
+});
