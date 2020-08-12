@@ -225,3 +225,7 @@
   list-style: none;
   color: #504e70;
 }
+
+.timeline-desc li {
+  padding-bottom: 5px;
+}
