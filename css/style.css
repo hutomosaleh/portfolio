@@ -525,4 +525,12 @@ body.dark .shadow-dark {
     .contact-info i {
         padding-bottom: 10px;
     }
+
+    .about .about-content .timeline .timeline-text span {
+        padding-bottom: 20px;
+    }
+
+    .timeline-desc li {
+        padding-bottom: 10px;
+    }
 }
