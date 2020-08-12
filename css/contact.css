@@ -19,21 +19,3 @@
 .contact-info h4 {
   color: #302E4D;
 }
-
-/* Responsiveness */
-
-@media (max-width: 767px) {
-  .contact-info {
-    flex-direction: column;
-    padding-bottom: 100px;
-  }
-
-  .contact-info a {
-    padding-bottom: 70px;
-  }
-
-  .contact-info i {
-    padding-bottom: 10px;
-  }
-
-}
