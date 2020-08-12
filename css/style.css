@@ -230,6 +230,8 @@ a {
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
+    -webkit-transition: all 0.3s ease;  /* Look into this more! */
+    transition: all 0.3s ease
 }
 
 .aside .nav-toggler span {
