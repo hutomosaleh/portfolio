@@ -37,6 +37,31 @@
   font-size: 24px;
   font-weight: 600;
   padding: 0 20px 0px 20px;
+  -webkit-transition: all 0.3s ease;  /* Look into this more! */
+  transition: all 0.3s ease
+}
+
+.project-menu a:hover{
+  font-size: 25px;
+}
+
+
+.project-menu a.active:hover{
+  font-size: 24px;
+}
+
+.project-menu a.active  {
+  display: flex;
+  position: relative;
+}
+
+.project-menu a.active::before  {
+  content: '';
+  height: 3px;
+  width: 75%;
+  position: absolute;
+  top: 110%;
+  left: 12%;
 }
 
 .project-showcase {
@@ -49,7 +74,7 @@
 .project-item img {
   height: 300px;
   width: 300px;
-  border-radius: 10%;
+  border-radius: 2%;
   display: inline-block;
   border: 8px solid #ffffff;
 }

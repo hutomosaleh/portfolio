@@ -1,0 +1,39 @@
+/* Contact Section */
+
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 150px 0 20px 0;
+}
+
+.contact-info a {
+  text-align: center;
+  pointer-events: none;
+}
+
+.contact-info i {
+  font-size: 70px;
+  padding-bottom: 40px;
+}
+
+.contact-info h4 {
+  color: #302E4D;
+}
+
+/* Responsiveness */
+
+@media (max-width: 767px) {
+  .contact-info {
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+
+  .contact-info a {
+    padding-bottom: 70px;
+  }
+
+  .contact-info i {
+    padding-bottom: 10px;
+  }
+
+}
