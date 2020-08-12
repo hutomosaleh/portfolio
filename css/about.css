@@ -92,6 +92,8 @@
   font-size: 16px;
   text-transform: capitalize;
   margin: 0;
+  line-height: 20px;
+  margin-bottom: 5px;
 }
 
 .about .about-content .skills .skill-items .progress {
@@ -206,6 +208,10 @@
   color: #302e4d;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease
+}
+
+.timeline-title span {
+  text-transform: lowercase;
 }
 
 .about .about-content .timeline .timeline-text {
