@@ -400,6 +400,9 @@ body.dark .project h3,
 body.dark .project h5,
 body.dark .contact h4,
 body.dark .project label,
+body.dark .activity-text h3, 
+body.dark .project-text h3,
+body.dark .current-text h3,
 body.dark .style-switcher label,
 body.dark .style-switcher h5,
 body.dark .about .about-content .timeline .timeline-title,
@@ -415,7 +418,10 @@ body.dark .aside .nav li a {
 }
 
 /* Small fonts */
+body.dark .activity-text,
 body.dark .project p,
+body.dark .activity-text p,
+body.dark .project-text p,
 body.dark .timeline-desc,
 body.dark .about .about-content .timeline .timeline-text,
 body.dark .about .about-content .timeline .timeline-date,
