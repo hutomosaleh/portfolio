@@ -29,6 +29,10 @@ body {
     box-sizing: border-box;
 }
 
+.blur {
+    filter: blur(20px);
+}
+
 .section {
     background-color: #f2f2fc;
     min-height: 100vh;
@@ -309,7 +313,7 @@ a {
 }
 
 .aside .nav {
-    padding-bottom: 80%;
+    padding-bottom: 100%;
 }
 
 .aside .copyright-text {

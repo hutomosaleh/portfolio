@@ -87,3 +87,37 @@
   margin: 10px;
   padding-bottom: 20px;
 }
+
+/*  Failed attempt on making a popup
+
+
+
+.project-item-focus {
+  position: fixed;
+  top: 10vh;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+}
+
+.project-item-focus img{
+  height: 300px;
+  width: 300px;
+  border-radius: 2%;
+  border: 8px solid #ffffff;
+}
+
+
+<div class="popups">
+<!-- Detailed information of projects -->
+<div class="project-item-focus">
+    <img src="img/nova.jpg" alt="profile" class="shadow-dark focus">
+    <h3>GUI App for Ragnarok Online</h3>
+    <p>An App for something that is usable by many players
+        that can see the shop really something yes. Very useful and also very nice yes.
+    </p>
+</div>
+<!-- Detailed information of projects END -->
+</div> 
+
+*/
