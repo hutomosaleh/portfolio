@@ -37,25 +37,24 @@
   font-size: 24px;
   font-weight: 600;
   padding: 0 20px 0px 20px;
-  -webkit-transition: all 0.3s ease;  /* Look into this more! */
-  transition: all 0.3s ease
+  -webkit-transition: all 0.3s ease; /* Look into this more! */
+  transition: all 0.3s ease;
 }
 
-.project-menu a:hover{
+.project-menu a:hover {
   font-size: 25px;
 }
 
-
-.project-menu a.active:hover{
+.project-menu a.active:hover {
   font-size: 24px;
 }
 
-.project-menu a.active  {
+.project-menu a.active {
   display: flex;
   position: relative;
 }
 
-.project-menu a.active::before  {
+.project-menu a.active::before {
   content: '';
   height: 3px;
   width: 75%;
@@ -69,6 +68,11 @@
   flex-direction: row;
   padding: 60px 0 30px 0;
   text-align: center;
+}
+
+.project-item {
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .project-item img {
