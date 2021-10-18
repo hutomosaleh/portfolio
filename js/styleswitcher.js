@@ -16,6 +16,8 @@ function setActiveStyle(color) {
 const bodySkin = document.querySelectorAll(".body-skin");
 const totalBodySkin = bodySkin.length;
 
+// Set default to dark
+document.body.className = "dark";
 for (let i = 0; i < totalBodySkin; i++) {
      bodySkin[i].addEventListener("change", function() {
           console.log(this.value);
