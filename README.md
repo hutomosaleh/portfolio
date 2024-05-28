@@ -1,2 +1,2 @@
 # portfolio
-My personal static website: https://hutomosaleh.github.io/portfolio/
+My personal website: https://hutomosaleh.github.io/portfolio/
